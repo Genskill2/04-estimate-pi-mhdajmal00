@@ -37,7 +37,7 @@ int main(void) {
       abort();
     }
   }
-}
+
 float mc_pi(int n)
 {	
 	int pc=0,ps=n;
@@ -53,6 +53,6 @@ float mc_pi(int n)
 	}
 	float pi = 4.0*pc/ps;
 	return pi;
+ }
 }
-
 
